@@ -1,5 +1,8 @@
 # 复现SST-2数据集attack结果
 
+## 0. install transformers
+`pip install -e .`
+
 ## 1. Download GLUE Datasets
 See `download_data.sh`
 NOTE: 这个是一个比较老的脚本，里面有个别数据集好像下不下来。huggingface有最新的下载脚本[在这里](https://github.com/huggingface/transformers/blob/master/utils/download_glue_data.py)
